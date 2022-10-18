@@ -3,7 +3,7 @@ pipeline {
         stages {
             stage('Cloning from Git hub'){
                 steps{
-checkout([$class: 'GitSCM',branches:[[name: '*/master']],extensions: [], userRemoteConfigs: [[url]]:'https://github.com/RAKHEE001/maven-web-application.git']]])                    
+checkout([$class: 'GitSCM',branches:[[name: '*/master']],extensions: [], userRemoteConfigs: [[url]]:'https://github.com/nsrivaishnavi/maven-web-application.git']]])                    
                 }
             }
         
